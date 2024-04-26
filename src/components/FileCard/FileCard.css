@@ -1,0 +1,71 @@
+.file__card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  background-color: #dc8781;
+  height: 12vh;
+  width: 25%;
+  color: #141e46;
+  position: relative;
+  border: 1px solid #141e46;
+  border-radius: 10px;
+}
+
+.file__details {
+  display: flex;
+  flex-direction: column;
+}
+
+.file__heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon{
+  margin-right: 0.4rem;
+}
+
+.created__at {
+  font-size: 0.75rem;
+  margin-left: 1.5rem;
+}
+
+.file__name {
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+
+.file__options {
+  cursor: pointer;
+}
+
+.three-dot-menu {
+  background-color: aliceblue;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 35%;
+  top: 45px;
+  right: -80px;
+  gap: 5px;
+  border-radius: 4px;
+  padding: 0.5rem;
+  z-index: 10;
+}
+.no-show-three-dot-menu {
+  display: none;
+}
+
+.three-dot-menu button {
+  display: flex;
+  flex-direction: row;
+  color: #141e46;
+  font-size: 0.75rem;
+  gap: 3px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,67 @@
+.landing__details {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 40%;
+  margin-top: 20%;
+  margin-left: 5%;
+  position: relative;
+  font-family: "Oxygen", sans-serif;
+}
+
+.heading__landing {
+  color: #e85a50;
+  font-weight: 900;
+}
+
+.heading__landing span{
+  display: inline-block;
+  transform: rotate(180deg) translateY(-3px);
+}
+
+.subheading__landing,
+.description__landing {
+  color: #575653;
+}
+
+.subheading__landing {
+  font-size: 0.75rem;
+  position: absolute;
+  color: #5756539b;
+  top: 45px;
+  left: 20px;
+}
+
+.description__landing {
+  margin-top: 4%;
+  font-size: 0.9rem;
+}
+
+.landing__button {
+  padding: 0.75rem 1rem;
+  margin-top: 4%;
+  background-color: #e98074;
+  border: none;
+}
+
+.landing__button a {
+  color: #373632;
+  font-size: 0.75rem;
+  font-weight: 900;
+}
+
+.animation__section{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.lottie__animation{
+    height: auto;
+    width: 100%;
+}

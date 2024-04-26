@@ -1,0 +1,46 @@
+.dash__heading {
+  font-size: 0.75rem;
+  color: #4a4942;
+  padding: 0.5rem 1.4rem;
+}
+
+.dash__heading h1 {
+  text-decoration: underline;
+}
+
+.file__number {
+  font-size: 0.75rem;
+  color: #4a4942;
+  padding: 0.5rem;
+  background-color: aliceblue;
+  width: 20%;
+  border-radius: 10px;
+  margin-left: 2%;
+}
+
+.file__number p {
+  font-size: 0.85rem;
+}
+
+.files {
+  padding: 1.3rem;
+  color: #4a4942;
+  font-size: 0.75rem;
+}
+
+.files h2 {
+  margin-bottom: 1%;
+}
+
+.files__container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.welcome__heading{
+  font-size: 0.75rem;
+  color: #4a4942;
+  padding: 0.5rem 1.4rem;
+}
